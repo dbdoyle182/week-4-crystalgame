@@ -5,3 +5,20 @@
 #text_box {
     background-color: lavender;
 };
+
+body, html {
+    height: 100%;
+}
+.bg { 
+    /* The image used */
+    background-image: url("https://4.bp.blogspot.com/-rItVZqQegH4/WegEPKiNqNI/AAAAAAAAocs/2rXHhT4fieY6L14UJ4G_QvqGqWhXe8r_gCLcBGAs/s1600/the_legend_of_zelda__breath_of_the_wild_wallpaper_by_de_monvarela-dav8gp2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}                    
+                    

@@ -27,6 +27,7 @@ $("#currentScore").html(userCounter);
 
 function resetGame () {
     randomCounter = Math.floor((Math.random() * 101) + 19);
+    $("#randomNumber").html(randomCounter)
     number1 = Math.floor((Math.random() * 11) + 1);
     number2 = Math.floor((Math.random() * 11) + 1);
     number3 = Math.floor((Math.random() * 11) + 1);

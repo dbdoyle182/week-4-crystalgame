@@ -32,6 +32,7 @@ function resetGame () {
     number3 = Math.floor((Math.random() * 11) + 1);
     number4 = Math.floor((Math.random() * 11) + 1);
     userCounter = 0;
+    $("#currentScore").html(userCounter);
     console.log(randomCounter);
     console.log(number1, number2, number3, number4)
     };
@@ -39,16 +40,28 @@ function resetGame () {
 // End game functions
 
 function userWin () {
+    wins++;
     alert("You won! Congrats!");
     resetGame();
 };
 
 function userLoss () {
+    losses++
     alert("You lost....Boo");
     resetGame();
 };
 
+// The on click functions for each crystal
 
+$("#crystal1").on("click",function() {
+    userCounter = userCounter + number1;
+    $("#currentScore").html(userCounter);
+    if (userCounter === randomCounter) {
+        userWin();
+    } else if (userCounter > randomCounter) {
+        userLoss();
+    };
+});
 
 
 

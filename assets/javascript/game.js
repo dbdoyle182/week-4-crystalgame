@@ -90,6 +90,12 @@ $("#crystal4").on("click",function() {
     };
 });
 
+// Reset button logic
+
+$("#reset-button").on("click", function(){
+    resetGame();
+});
+
 
 
 

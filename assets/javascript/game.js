@@ -62,6 +62,33 @@ $("#crystal1").on("click",function() {
         userLoss();
     };
 });
+$("#crystal2").on("click",function() {
+    userCounter = userCounter + number2;
+    $("#currentScore").html(userCounter);
+    if (userCounter === randomCounter) {
+        userWin();
+    } else if (userCounter > randomCounter) {
+        userLoss();
+    };
+});
+$("#crystal3").on("click",function() {
+    userCounter = userCounter + number3;
+    $("#currentScore").html(userCounter);
+    if (userCounter === randomCounter) {
+        userWin();
+    } else if (userCounter > randomCounter) {
+        userLoss();
+    };
+});
+$("#crystal4").on("click",function() {
+    userCounter = userCounter + number4;
+    $("#currentScore").html(userCounter);
+    if (userCounter === randomCounter) {
+        userWin();
+    } else if (userCounter > randomCounter) {
+        userLoss();
+    };
+});
 
 
 

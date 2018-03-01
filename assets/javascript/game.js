@@ -58,36 +58,36 @@ $("#crystal1").on("click",function() {
     userCounter = userCounter + number1;
     $("#currentScore").html(userCounter);
     if (userCounter === randomCounter) {
-        userWin();
+        setTimeout( function() {userWin()}, 500);
     } else if (userCounter > randomCounter) {
-        userLoss();
+        setTimeout( function() {userLoss()}, 500);
     };
 });
 $("#crystal2").on("click",function() {
     userCounter = userCounter + number2;
     $("#currentScore").html(userCounter);
     if (userCounter === randomCounter) {
-        userWin();
+        setTimeout( function() {userWin()}, 500);
     } else if (userCounter > randomCounter) {
-        userLoss();
+        setTimeout( function() {userLoss()}, 500);
     };
 });
 $("#crystal3").on("click",function() {
     userCounter = userCounter + number3;
     $("#currentScore").html(userCounter);
     if (userCounter === randomCounter) {
-        userWin();
+        setTimeout( function() {userWin()}, 500);
     } else if (userCounter > randomCounter) {
-        userLoss();
+        setTimeout( function() {userLoss()}, 500);
     };
 });
 $("#crystal4").on("click",function() {
     userCounter = userCounter + number4;
     $("#currentScore").html(userCounter);
     if (userCounter === randomCounter) {
-        userWin();
+        setTimeout( function() {userWin()}, 500);
     } else if (userCounter > randomCounter) {
-        userLoss();
+        setTimeout( function() {userLoss()}, 500);
     };
 });
 
